@@ -4,4 +4,4 @@ Things I learned during doing this web portfolio:
 2.**Less is more**
 Before I start my portfolio, I always think too much so I don't know where to start. So, I found that for web development less is more. After you have a clear and organized layout, I can add more features to it instead of thinking too much at the first place.
 
-**All the images and illustrations created by myself, expect for icons, they comes from [title]https://boxicons.com/.**
+**All the images and illustrations created by myself, expect for icons, they comes from [title](https://boxicons.com/.)**
