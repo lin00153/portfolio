@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!----my own styles-->
+    <title>Lin's Media Studio</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+
+    <!---Navigation bar---->
+      <header class="sticky-top">
+        <nav class="navbar navbar-expand-lg py-3">
+          <!--Skiplines-->
+          <a href="#main" class="skip">Skip to main content</a>
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img class="logo" src="images/logo.png" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                aria-controls="navbarNav" aria-expanded="false" 
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto">
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
+                  <a class="nav-link" href="#about">About Us</a>
+                  <a class="nav-link" href="#portfolio">Portfolio</a> 
+                  <a class="nav-link" href="#contact">Contact</a>
+                </div>
+              </div>
+            </div>
+        </nav>
+    </header><!---Navigation bar end---->
+
+    <!--Home----->
+  <main id="main">
+    <div id="home" class="home vh-100 d-flex align-items-center" >
+      
+      <div class="container-home">
+        <div class="row">
+          <div class="col-lg-5 mx-auto text-center">
+            <h1 class="display-3 text-white">
+              LIN'S MEDIA STUDIO 
+            </h1>
+            <p class="text-white my-3">Get First Booking 50% off!</p>
+            <a href="#about"><button class="btn rounded-circle">More Details</button></a>
+          </div>
+        </div>
+      </div>
+    </div><!---Home end-->
+
+    <!--About us-->
+    <section id="about">
+      <div class="container">
+        <div class="row mt-3 mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h1>"Unleash Your Creativity with the Power of Our Media Studio"</h1>
+            <p>With the latest equipment and technology, 
+              Lin's media studio offers a range of services related to the creation of digital media content. 
+              Including video production, animation, photography, sound effects, and graphic design.
+              The high-quality media content can use for a variety of purposes, 
+              from advertising and marketing to entertainment and education. </p>
+          </div>
+        </div>
+        
+        <div class="row g-4">
+          <div class="col-lg-4 col-sm-6">
+            <div class="about card-effect">
+              <div class="col-lg-12 aboutme-img"></div>
+              <h3 class="mt-4 mb-2">About Me</h3>
+              <p>My name is Ruonan Lin, 
+                I am the creator of Lin's Media Studio. 
+                I'm good at taking portraits and landscape phots. 
+                please contact me if you have questions!
+              </p>
+            </div>
+        </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="about card-effect">
+              <div class="col-lg-12 portrait-img"></div>
+              <h3 class="mt-4 mb-2">Portrait</h3>
+              <p>
+                Our experienced photographers specialize in capturing your unique personality and style,
+                creating stunning portraits that you'll cherish for a lifetime.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-sm-6">
+            <div class="about card-effect">
+              <div class="col-lg-12 landscape-img"></div>
+              <h3 class="mt-4 mb-2">Landscape</h3>
+              <p>
+                Whether you're looking for a stunning piece of art to hang on your wall or a unique gift for someone special, 
+                our landscape photography is sure to impress. 
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section><!--About us end-->
+    
+    <!--Portfolio-->
+    <section class="row w-100" id="portfolio">
+      <div class="col-lg-6 col-img mt-5"></div>
+      <div class="col-lg-6">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-10 offset-md-1 mt-5 text-center">
+
+              <h1>"Transform Your Vision into Reality with Our Media Studio"</h1>
+              <p class="mt-5">As a local studio in Ottawa, we provides special discount for all Ottawa students
+                on portraits taking! Also, we offers free photo editing services including
+                color correction and dirt removal for all the picture you took with us!
+                Hit below to know more details about it: 
+              </p>
+             <a href="#contact"><button class="btn rounded-circle mt-5">Get the Discount</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!--Portfolio end-->
+
+    <!--Contact-->
+    <section id="contact">
+      <div class="container">
+        <div class="row mt-3 mb-5">
+          <div class="col-md-8 mx-auto text-center">
+            <h1>Contact Us</h1>
+          </div>
+        </div>
+
+        <form action="" class="row g-3 justify-content-center">
+         <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Full Name">
+          </div>
+          <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Phone Number">
+          </div>
+          <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Email Address">
+          </div>
+          <div class="col-md-5">
+            <input type="text" class="form-control" placeholder="Reservstion Date">
+          </div>
+          <div class="col-md-10">
+            <textarea cols="40" rows="8" class="form-control" placeholder="Any questions/ comments"></textarea>
+          </div>
+          <div class="col-md-10 d-grid">
+            <button class="btn">Contact</button>
+          </div>
+
+        </form>
+      </div>
+    </section><!--Contact end-->
+  </main>
+  
+
+
+  <!--Footer-->
+  <footer class="text-center text-lg-start">
+    <a href="#top" class="back-to-top">Back to top</a><!--back to top button added-->
+    <!-- Grid container -->
+    <div class="container p-4">
+      <div class="row">
+        <div class="col-lg-3 col-md-12 mt-3 mb-3">
+          <img src="images/logo.png" alt="logo">
+        </div>
+        <div class="col-lg-3 col-md-12 mx-auto text-center">
+          <div class="footer-iconbox mx-auto mt-5 mb-3">
+            <i class='bx bx-envelope'></i>
+          </div>  
+          <h5 class="text-uppercase">Email: </h5>
+          <p>
+            ruonan419@gmail.com
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-12 mx-auto text-center">
+          <div class="footer-iconbox mx-auto mt-5 mb-3">
+            <i class='bx bx-phone' ></i>
+          </div>
+          <h5 class="text-uppercase">Phone: </h5>
+          <p>
+            819-319-0945
+          </p>
+        </div>
+
+        <div class="col-lg-3 col-md-12 mx-auto text-center">
+          <div class="footer-iconbox mx-auto mt-5 mb-3">
+            <i class='bx bx-home' ></i>
+          </div>
+            <h5 class="text-uppercase">Address:</h5>
+            <p>
+              180 Lees Ave, K1S 5J6, Ottawa, ON.
+            </p>
+        </div>
+      </div>
+    </div>
+    <!-- Grid container end -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      Lin's Media Studio © 2023 Copyright. 
+    </div>
+    <!-- Copyright -->
+    
+  </footer><!--Footer end-->
+
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+  </body>
+</html>
